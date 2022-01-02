@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Dashboard</title>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js">
+</script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse sidebar grey lighten-5" role="navigation" style="position: fixed">
+    <div class="container-fluid">
+      <ul id="navbar-links" class="nav navbar-nav">
+      	<li>
+      		<a href="#"><p class="pull-right">Page Name</p><span id="navbar-glyphicon" class="pull-left showopacity glyphicon
+      		glyphicon-user"></span></a>
+      	</li>
+      	<li class="divider"></li>
+        <li>
+          <a href="dashboard.html">Dashboard<span id="navbar-glyphicon" class="pull-right showopacity glyphicon glyphicon-stats"></span></a>
+        </li>
+
+        <li>
+          <a href="subscriber.html">Subscribers<span id="navbar-glyphicon" class="pull-right showopacity glyphicon glyphicon-bitcoin"></span></a>
+        </li>
+        <li>
+          <a href="#">Broadcast<span id="navbar-glyphicon" class="pull-right showopacity glyphicon glyphicon-credit-card"></span></a>
+        </li>
+        <li>
+          <a href="rummylife.html">Rummy Life<span id="navbar-glyphicon" class="pull-right showopacity glyphicon glyphicon-credit-card"></span></a>
+        </li>
+        <li>
+          <a href="scoregame.html">Score Game<span id="navbar-glyphicon" class="pull-right showopacity glyphicon glyphicon-credit-card"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+   <div class="main grey lighten-5">
+  <div class="container-fluid">
+  <div class="header" style="margin-top: 8px">
+  <h1>Broadcast</h1>
+  <div class="divider">
+  </div>
+
+  <div class="row">
+
+   <div class="card hoverable" style="margin-left: 8px;">
+            <div class="card-content">
+              <div class="card-title">
+                <h4>Scheduled</h4>
+                </div>
+                <p style="text-align: center;">You have no scheduled posts</p>
+              </div>
+            </div>
+
+
+       <div class="card hoverable" style="margin-left: 8px;">
+            <div class="card-content">
+              <div class="card-title">
+                <h4>History</h4>
+                </div>
+                <table class="table subscriber-table">
+          				<thead>
+          					<th>Posts</th>
+          					<th>Processed</th>
+          					<th>Sent</th>
+          					<th>Read(%)</th>
+          					<th>Click/CTR</th>
+          				</thead>
+
+          				<tbody>
+          				<tr>
+          					
+          					<td>Hi There!</td>
+          					<td>31st March 2017 12:08</td>
+          					<td>1</td>
+          					<td>1(100.00%)</td>
+          					<td>0</td>
+          				</tr>
+
+          				
+
+          				</tbody>
+          			</table>
+                
+              </div>
+            </div>
+        
+          </div>
+  
+
+  </body>
+  </html>
